@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+h1,h2{  /* Group Selector */
+
+    color: blue;
+}
+.box > p     /* Child Selector */
+{  
+          
+  color: firebrick;
+}
+
+div li    /* Desendant Selector (ansister selector)*/
+{
+    color: blueviolet;
+}
+
+li.done   /* Chainig : Apply where all selector are true*/
+{           /* More specific selector*/
+   color: seagreen;
+}
+
+ul p.done     /* Combining combiners*/
+{  
+    font-size:0.5rem;
+}
